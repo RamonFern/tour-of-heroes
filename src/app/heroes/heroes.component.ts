@@ -9,11 +9,6 @@ import { Hero } from '../models/hero.model';
 })
 export class HeroesComponent  {
 
-  hero: Hero = {
-    id: 1,
-    name: "Wolverine"
-  }
-
   heroes = HEROES;
   selectedHero?: Hero
 
