@@ -8,19 +8,26 @@ import { DetailHeroComponent } from './detailHero/detailHero.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MessagesComponent } from './messages/messages.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
-      DetailHeroComponent
+      DetailHeroComponent,
+      MessagesComponent
    ],
   imports: [
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatExpansionModule,
+
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
