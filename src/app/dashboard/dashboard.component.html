@@ -1,0 +1,13 @@
+<h2>dashboard</h2>
+<div class="main">
+  <mat-card class="main_card" *ngFor="let hero of heroes">
+    <mat-card-header>
+      <!-- <mat-card-title-group> -->
+        <mat-card-title>{{ hero.name }}</mat-card-title>
+      <!-- </mat-card-title-group> -->
+    </mat-card-header>
+    <mat-card-content class="content">
+      {{ longText }}
+    </mat-card-content>
+  </mat-card>
+</div>

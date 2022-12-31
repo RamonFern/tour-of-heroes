@@ -1,0 +1,24 @@
+.example-card {
+  max-width: 400px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.main_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.inter {
+  display: flex;
+}
+
+.content {
+  max-width: 200px;
+}

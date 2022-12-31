@@ -13,13 +13,16 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { AppRoutingModule } from './app-routing.module';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
       DetailHeroComponent,
-      MessagesComponent
+      MessagesComponent,
+      DashboardComponent
    ],
   imports: [
     BrowserModule,
@@ -30,6 +33,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatExpansionModule,
     MatTooltipModule,
     AppRoutingModule,
+    MatCardModule,
     MatButtonModule
   ],
   providers: [],
