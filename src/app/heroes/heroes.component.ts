@@ -13,10 +13,8 @@ import { take } from 'rxjs';
 export class HeroesComponent implements OnInit {
 
   heroes: Hero[] = [];
-  selectedHero?: Hero
 
-  constructor(private heroService: HeroService,
-              private messagesService: MessagesService) {}
+  constructor(private heroService: HeroService) {}
 
 
   ngOnInit(): void {
@@ -31,9 +29,6 @@ export class HeroesComponent implements OnInit {
         })
   }
 
-  onSelect(hero: Hero) {
-    this.selectedHero = hero;
-    this.messagesService.add(`HeroesComponent: Selected hero id: ${hero.id}`)
-  }
+
 
 }

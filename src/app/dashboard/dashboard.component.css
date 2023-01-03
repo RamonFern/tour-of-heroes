@@ -13,6 +13,7 @@
   flex-direction: column;
   justify-content: space-around;
   margin-top: 40px;
+  cursor: pointer;
 }
 
 .inter {
