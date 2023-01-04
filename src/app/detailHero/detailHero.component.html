@@ -3,7 +3,10 @@
 
   <mat-card class="example-card">
     <mat-card-content class="content">
-      <mat-card-title>{{ hero.name }}</mat-card-title>
+      <div class="header">
+        <mat-card-title>{{ hero.name }}</mat-card-title>
+        <img mat-card-sm-image [src]="hero.urlImage" >
+      </div>
       <mat-form-field>
         <mat-label>ID</mat-label>
         <input matInput disabled [value]="hero.id">

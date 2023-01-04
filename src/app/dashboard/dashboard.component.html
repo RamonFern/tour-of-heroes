@@ -2,12 +2,10 @@
 <div class="main">
   <mat-card class="main_card" *ngFor="let hero of heroes" routerLink="/heroes/{{hero.id}}">
     <mat-card-header>
-      <!-- <mat-card-title-group> -->
-        <mat-card-title>{{ hero.name }}</mat-card-title>
-      <!-- </mat-card-title-group> -->
+      <mat-card-title>{{ hero.name }}</mat-card-title>
     </mat-card-header>
     <mat-card-content class="content">
-      {{ longText }}
+      <img mat-card-lg-image [src]="hero.urlImage" >
     </mat-card-content>
   </mat-card>
 </div>
