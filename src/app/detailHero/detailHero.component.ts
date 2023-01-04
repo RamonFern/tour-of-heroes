@@ -13,6 +13,9 @@ import { ActivatedRoute } from '@angular/router';
 export class DetailHeroComponent implements OnInit {
 
   hero!: Hero;
+  longText = `The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog
+  from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+  originally bred for hunting.`;
 
   constructor(private heroService: HeroService,
               private location: Location,

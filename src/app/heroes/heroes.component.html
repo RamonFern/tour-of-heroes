@@ -1,9 +1,11 @@
 <h1>My Heroes</h1>
 
-<ul class="heroes">
-  <li *ngFor="let hero of heroes"
-      routerLink="/heroes/{{ hero.id }}">
-    <span>{{ hero.id }}</span> {{ hero.name }}
-  </li>
-</ul>
+<mat-chip-list>
+  <mat-chip class="heroes" *ngFor="let hero of heroes" routerLink="/heroes/{{ hero.id }}">
+    <img matChipAvatar [src]="hero.urlImage"/>
+    {{ hero.id }}: {{ hero.name }}
+  </mat-chip>
+</mat-chip-list>
+
+
 

@@ -1,4 +1,5 @@
 import { MessagesService } from './../messages.service';
+import {CdkDragDrop, moveItemInArray} from '@angular/cdk/drag-drop';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
