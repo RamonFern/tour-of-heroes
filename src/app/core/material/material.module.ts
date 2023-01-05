@@ -14,17 +14,17 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 
 const MODULES = [
   BrowserAnimationsModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatExpansionModule,
-    MatTooltipModule,
-    MatCardModule,
-    MatChipsModule,
-    MatInputModule,
-    MatTableModule,
-    MatFormFieldModule,
-    MatButtonModule,
-    MatListModule,
+  MatToolbarModule,
+  MatIconModule,
+  MatExpansionModule,
+  MatTooltipModule,
+  MatCardModule,
+  MatChipsModule,
+  MatInputModule,
+  MatTableModule,
+  MatFormFieldModule,
+  MatButtonModule,
+  MatListModule,
 ]
 
 
