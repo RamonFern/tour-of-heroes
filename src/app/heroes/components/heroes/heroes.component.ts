@@ -1,7 +1,7 @@
-import { HeroService } from '../core/services/hero.service';
-import { Hero } from '../core/models/hero.model';
 import { Component, OnInit } from '@angular/core';
 import { take } from 'rxjs';
+import { Hero } from 'src/app/core/models/hero.model';
+import { HeroService } from 'src/app/core/services/hero.service';
 
 
 @Component({
